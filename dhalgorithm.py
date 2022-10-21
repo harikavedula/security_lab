@@ -1,0 +1,10 @@
+p1=int(input())
+p2=int(input())
+p3=int(input())
+p4=int(input())
+r=pow(p2,p3,p1)
+r1=pow(p2,p4,p1)
+s1=pow(r1,p3,p1)
+s2=pow(r,p4,p1)
+print(s1," ",s2)
+    
